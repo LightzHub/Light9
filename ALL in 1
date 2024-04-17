@@ -5,7 +5,7 @@ elseif game.PlaceId == 13772394625 or game.PlaceId == 15234596844 then
 else
     game.StarterGui:SetCore("SendNotification", {
         Title = "Ops Deus algum erro!",
-        Text = "Perdão, nosso script não tem suporte para esse jogo, agradecemos a compreensão",
+        Text = "Perdão, nosso script não tem suporte para esse jogo ;(",
         Duration = 12 -- duração em segundos
     })
 end
