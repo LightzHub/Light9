@@ -1,20 +1,11 @@
-local function loadScript()
-    if game.PlaceId == 3276265788 or game.PlaceId == 3101667897 or game.PlaceId == 3232996272 then
-        
-
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/eyahhh/testes-oficiais/main/Legends%20of%20Speed")))() -- Legends of speed
-    
-
+if game.PlaceId == 3276265788 or game.PlaceId == 3101667897 or game.PlaceId == 3232996272 then
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/eyahhh/testes-oficiais/main/Legends%20of%20Speed")))() -- Legends of speed
 elseif game.PlaceId == 13772394625 then
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/LightzHub/Light9/main/Blade%20Ball'),true))()
-    else
-        game.StarterGui:SetCore("SendNotification", {
-            Title = "Ops Deus algum erro!",
-            Text = "Perdão, nosso script não tem suporte para esse jogo, agradecemos a compreensão",
-            Duration = 12 -- duração em segundos
-        })
-    end
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/LightzHub/Light9/main/Blade%20Ball'),true))()
+else
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "Ops Deus algum erro!",
+        Text = "Perdão, nosso script não tem suporte para esse jogo, agradecemos a compreensão",
+        Duration = 12 -- duração em segundos
+    })
 end
-
-game:GetService("TeleportService").TeleportInitiated:Connect(loadScript)
-loadScript() -- Carrega o script quando o jogo inicia
