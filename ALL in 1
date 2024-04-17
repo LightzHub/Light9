@@ -1,0 +1,9 @@
+
+if game.PlaceId == 3276265788 then
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/CryoScript/Scripts.lua/main/Legends%20of%20Speed.lua'),true))() -- Legends of speed
+elseif game.PlaceId == 3101667897 then
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/CryoScript/Scripts.lua/main/Legends%20of%20Speed.lua'),true))() -- Legends of speed
+elseif game.PlaceId == 3232996272 then
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/CryoScript/Scripts.lua/main/Legends%20of%20Speed.lua'),true))() -- Legends of speed
+
+elseif game.PlaceId == 13772394625 then
